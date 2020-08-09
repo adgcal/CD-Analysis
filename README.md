@@ -19,6 +19,7 @@ f(T)=(S(T)-E2)/(E1-E2)
 - A = Union{E1,E2,...Er} 
 - Let U and V are orthogonal matrices with orthonormal eigenvectors chosen from AAᵀ and AᵀA respectively
 - S is a diagonal matrix with r elements equal to the root of the positive eigenvalues of AAᵀ or Aᵀ A (both matrics have the same positive eigenvalues anyway)
+-  A=U.S.Vᵀ
 
 <https://medium.com/@jonathan_hui/machine-learning-singular-value-decomposition-svd-principal-component-analysis-pca-1d45e885e491#:~:text=What%20is%20the%20difference%20between,PCA%20skips%20less%20significant%20components.>
 
